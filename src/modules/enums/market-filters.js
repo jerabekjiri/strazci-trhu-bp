@@ -1,0 +1,10 @@
+export const MarketFiltersEnum = {
+    POPULAR:   'POPULAR',
+    MIN_PRICE: 'MIN_PRICE',
+    MAX_PRICE: 'MAX_PRICE',
+    MIN_COUNT: 'MIN_COUNT',
+    MAX_COUNT: 'MAX_COUNT',
+
+    ACTIVATED: 'ACTIVATED',
+    NOT_ACTIVATED: 'NOT_ACTIVATED'
+}

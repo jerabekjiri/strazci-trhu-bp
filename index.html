@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <base href="/">
+  <script src="./src/assets/configuration/config.js"></script>
+
+  <!-- Load polyfills -->
+  <script src="./node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+  <script src="./node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+  <script src="./node_modules/web-animations-js/web-animations-next.min.js"></script>
+
+  <script type="module" src="./src/root.module.js"></script>
+  <script>
+    window.process = { env: { NODE_ENV: 'production' } };
+  </script>
+
+  <meta name="description" content="root-module">
+  <meta name="theme-color" content="#ffffff">
+  <title>Gamifika</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="shortcut icon" href="./manifest/favicon.ico">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+
+<body>
+  <root-module>
+  </root-module>
+  <noscript>
+    Please enable JavaScript to view this website.
+  </noscript>
+</body>
+
+</html>

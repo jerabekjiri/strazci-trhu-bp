@@ -1,0 +1,37 @@
+{
+  "en": {
+    "APPLICATION_TITLE": "Market guards",
+    "BACK": "Back",
+    "BADGES": "Badges",
+    "BEST_PRACTICES": "Best-practice",
+    "DASHBOARD": "Dashboard",
+    "DICTIONARY": "Dictionarz",
+    "LEVEL": "Level",
+    "LIBRARY": "Librarz",
+    "MISSIONS_AND_QUESTS": "Missions and quests",
+    "MY_STORY": "My story",
+    "SKILLS": "Skills",
+    "SKILLS_AND_BADGES": "Skills and badges",
+    "STORIES": "Stories",
+    "MAP": "Map",
+    "MARKET": "Market",
+
+    "GENERIC_MESSAGE_INVALID_CREDENTIALS": "Bad credentials",
+
+    "LOGIN_PAGE_BUTTON_LOGIN": "Sign in",
+    "LOGIN_PAGE_FIELD_LOGIN": "User name",
+    "LOGIN_PAGE_FIELD_PASSWORD": "Password",
+    "LOGIN_PAGE_HEADER": "Login",
+    "LOGIN_PAGE_LINK_CAME_BY_ACCIDENT": "Did you get here by accident?",
+    "LOGIN_PAGE_LINK_LOST_PASSWORD": "Forgotten password",
+    "LOGIN_PAGE_TITLE": "Welcome to the World of market guards!",
+
+    "NOTIFICATION_EMPTY": "You have no notifications",
+    "NOTIFICATION_TITLE": "Notifications",
+    "NOTIFICATION_NEW_LEVEL_TEXT": "You have completed the required quest. You earned {experience} XP for it.",
+    "NOTIFICATION_NEW_LEVEL_TITLE": "Reached level {level}!",
+    "NOTIFICATION_NO_MORE": "You have no further notifications",
+
+    "VALIDATORS_REQUIRED": "This field is required!"
+  }
+}

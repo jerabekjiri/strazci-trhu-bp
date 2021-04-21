@@ -1,0 +1,41 @@
+{
+  "shell": "src/root.module.js",
+  "entrypoint": "index.html",
+  "sources": [
+   "src/root.module.js",
+   "src/styles.css",
+   "manifest/**",
+   "src/assets/**/*",
+   "src/shared/translations/**",
+   "src/modules/**"
+  ],
+  "extraDependencies": [
+    "manifest.json",
+    "node_modules/@webcomponents/webcomponentsjs/**",
+    "!node_modules/@webcomponents/webcomponentsjs/gulpfile.js",
+    "node_modules/@webcomponents/webcomponentsjs/bundles/*.js",
+    "node_modules/web-animations-js/web-animations-next.min.js"
+  ],
+  "builds": [
+    {
+      "name": "es6-bundled",
+      "browserCapabilities": [
+        "es2015"
+      ],
+      "js": {
+        "minify": true,
+        "transformModulesToAmd": true
+      },
+      "css": {
+        "minify": true
+      },
+      "html": {
+        "minify": true
+      },
+      "bundle": true,
+      "addServiceWorker": true
+    }
+  ],
+  "moduleResolution": "node",
+  "npm": true
+}
